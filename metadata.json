@@ -1,0 +1,6 @@
+{
+  "name": "O Lado Aleatório dos Dias Comuns",
+  "description": "Site oficial e experiência interativa do livro 'O Lado Aleatório dos Dias Comuns' de Luiz Carlos dos Santos. Crônicas sobre o ordinário, o afeto e os intervalos da vida cotidiana.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

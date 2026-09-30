@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Cormorant Garamond", Georgia, serif;
+  --font-sans: "Plus Jakarta Sans", system-ui, -apple-system, sans-serif;
+  --font-reading: "Newsreader", "Times New Roman", Georgia, serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Paper Polen texture effect */
+.paper-polen {
+  background-color: #FAF6EE;
+  background-image: radial-gradient(#d6cec0 0.5px, transparent 0.5px);
+  background-size: 16px 16px;
+}
+
+.book-shadow {
+  box-shadow: 
+    -12px 16px 35px -8px rgba(35, 25, 15, 0.35),
+    -3px 0 10px 0 rgba(0, 0, 0, 0.15),
+    2px 0 8px 0 rgba(0, 0, 0, 0.08);
+}
+
