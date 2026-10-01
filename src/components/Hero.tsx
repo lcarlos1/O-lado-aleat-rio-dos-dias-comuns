@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
-import { BookOpen, Sparkles, ArrowRight, Bookmark, Coffee, Check } from 'lucide-react';
+import { BookOpen, Sparkles, ArrowRight, Bookmark, Coffee, Check, ExternalLink } from 'lucide-react';
 import { BOOK_INFO } from '../data/bookData';
+import bookCoverImg from '../assets/images/book_cover_showcase_1790795591431.jpg';
 
 interface HeroProps {
   onOpenRandom: () => void;
@@ -108,11 +109,13 @@ export const Hero: React.FC<HeroProps> = ({
               </button>
 
               <a
-                href="#adquirir"
+                href={BOOK_INFO.printerUrl}
+                target="_blank"
+                rel="noopener noreferrer"
                 className="px-5 py-3.5 text-[#5C5349] hover:text-[#1E1D1B] text-sm font-medium transition-colors inline-flex items-center gap-1.5"
               >
-                <span>Comprar livro impresso</span>
-                <span aria-hidden="true">&rarr;</span>
+                <span>Comprar na UICLAP</span>
+                <ExternalLink className="w-3.5 h-3.5" />
               </a>
             </div>
 
@@ -159,7 +162,7 @@ export const Hero: React.FC<HeroProps> = ({
                 {/* Book Cover Image */}
                 <div className="relative aspect-[3/4] overflow-hidden rounded-md bg-[#252422] book-shadow">
                   <img
-                    src="/src/assets/images/book_cover_showcase_1790795591431.jpg"
+                    src={bookCoverImg}
                     alt="Capa do livro O Lado Aleatório dos Dias Comuns por Luiz Carlos dos Santos"
                     className="w-full h-full object-cover transition-transform duration-700 ease-out group-hover:scale-102"
                     referrerPolicy="no-referrer"

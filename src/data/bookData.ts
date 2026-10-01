@@ -17,7 +17,7 @@ export const BOOK_INFO = {
   city: "Toledo, PR",
   publisher: "LSantos",
   printer: "UICLAP",
-  printerUrl: "https://uiclap.com",
+  printerUrl: "https://loja.uiclap.com/titulo/ua205494",
   year: 2026,
   pages: 158,
   paper: "Pólen 80g",

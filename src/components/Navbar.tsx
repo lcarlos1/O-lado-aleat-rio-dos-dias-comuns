@@ -82,10 +82,12 @@ export const Navbar: React.FC<NavbarProps> = ({
           </button>
 
           <a
-            href="#adquirir"
+            href="https://loja.uiclap.com/titulo/ua205494"
+            target="_blank"
+            rel="noopener noreferrer"
             className="px-4 py-2 text-xs font-medium text-[#FAF8F5] bg-[#222120] hover:bg-[#3D3A37] rounded-md transition-colors whitespace-nowrap shadow-xs"
           >
-            Comprar Livro
+            Comprar na UICLAP
           </a>
         </div>
       </div>

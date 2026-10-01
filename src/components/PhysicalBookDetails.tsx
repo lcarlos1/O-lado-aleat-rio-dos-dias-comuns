@@ -1,6 +1,7 @@
 import React from 'react';
 import { Feather, Layers, BookCheck, ShieldCheck, HeartHandshake, Truck } from 'lucide-react';
 import { BOOK_INFO } from '../data/bookData';
+import writerDeskImg from '../assets/images/writer_desk_still_life_1790795612307.jpg';
 
 interface PhysicalBookDetailsProps {
   onOpenAutograph: () => void;
@@ -36,7 +37,7 @@ export const PhysicalBookDetails: React.FC<PhysicalBookDetailsProps> = ({
           <div className="lg:col-span-5 relative">
             <div className="relative rounded-xl overflow-hidden border border-[#DED4C3] shadow-lg">
               <img
-                src="/src/assets/images/writer_desk_still_life_1790795612307.jpg"
+                src={writerDeskImg}
                 alt="Mesa de escrita com caderno, xícara de café e luz suave"
                 className="w-full h-80 sm:h-96 object-cover"
                 referrerPolicy="no-referrer"

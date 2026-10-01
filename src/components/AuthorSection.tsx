@@ -1,6 +1,7 @@
 import React from 'react';
 import { MapPin, Calendar, BookOpen, PenTool, Mail } from 'lucide-react';
 import { BOOK_INFO } from '../data/bookData';
+import bakeryStreetImg from '../assets/images/bakery_morning_street_1790795622475.jpg';
 
 interface AuthorSectionProps {
   onOpenAutograph: () => void;
@@ -17,7 +18,7 @@ export const AuthorSection: React.FC<AuthorSectionProps> = ({ onOpenAutograph })
           <div className="lg:col-span-5">
             <div className="relative rounded-2xl overflow-hidden border border-[#DCD3C2] shadow-md">
               <img
-                src="/src/assets/images/bakery_morning_street_1790795622475.jpg"
+                src={bakeryStreetImg}
                 alt="Rua de bairro em Toledo ao amanhecer com padaria tradicional"
                 className="w-full h-[400px] object-cover"
                 referrerPolicy="no-referrer"

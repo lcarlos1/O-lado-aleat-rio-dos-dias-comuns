@@ -75,11 +75,11 @@ export const PurchaseSection: React.FC<PurchaseSectionProps> = ({
                 rel="noopener noreferrer"
                 className="w-full py-3.5 px-6 bg-[#1E1D1B] hover:bg-[#383431] text-white text-sm font-medium rounded-lg transition-colors flex items-center justify-center gap-2 shadow-xs"
               >
-                <span>Acessar UICLAP Oficial</span>
+                <span>Comprar na UICLAP</span>
                 <ExternalLink className="w-4 h-4" />
               </a>
               <span className="text-[11px] text-[#8C8274] text-center block mt-2 font-mono">
-                www.uiclap.com
+                loja.uiclap.com/titulo/ua205494
               </span>
             </div>
           </div>
